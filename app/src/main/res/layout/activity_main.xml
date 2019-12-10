@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nhập cái gì đó"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:id="@+id/editText1"
+        android:textColorHint="#03A9F4"
+        android:drawableLeft="@mipmap/baseline_account_circle_black_18dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:hint="nhập cái gì đó"
+        android:layout_below="@id/editText1"
+        android:textSize="20dp"
+        android:textColorHint="#03A9F4"
+        android:drawableLeft="@mipmap/baseline_account_circle_black_18dp"
+        />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/butTon1"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/editText2"
+        android:text="INPUT"
+        android:textSize="20dp"
+        />
+</RelativeLayout>
